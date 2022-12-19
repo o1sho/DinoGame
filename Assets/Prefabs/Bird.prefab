@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 2777187413534236133}
   - component: {fileID: 2777187413534236132}
   - component: {fileID: 2777187413534236135}
+  - component: {fileID: -1667019748049999442}
   m_Layer: 0
   m_Name: Bird
-  m_TagString: Obstracle
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2777187413534236134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -114,3 +115,15 @@ MonoBehaviour:
   sprites:
   - {fileID: 21300000, guid: be5df9de62f6e264a8c60d1df780b94c, type: 3}
   - {fileID: 21300000, guid: 3a3a71d1dfccc914c954edab7ac411da, type: 3}
+--- !u!114 &-1667019748049999442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777187413534236134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ae6505ca0215b4b82113a46ab63497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
